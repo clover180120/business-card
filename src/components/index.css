@@ -1,0 +1,71 @@
+.selfie {
+	width: 100%;
+	box-sizing: border-box;
+	border-radius: 12px;
+}
+
+.info {
+	text-align: center;
+	padding: 0 16px;
+}
+
+.info--name {
+	margin-bottom: 20px;
+}
+
+.info--contact {
+	display: flex;
+	justify-content: space-around;
+}
+
+.info--contact button {
+  position: relative;
+  width: 100%;
+  height: 46px;
+  box-sizing: border-box;
+  padding: 10px 15px;
+	margin: 0 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 1.47;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+	background-color: #355894;
+}
+
+.info--bio {
+	text-align: left;
+	margin: 28px 0;
+}
+
+.social-media {
+	display: flex;
+	justify-content: center;
+}
+
+.social-media div {
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 40px;
+	height: 40px;
+	margin: 8px 12px;
+	cursor: pointer;
+}
+
+.social-media .fb {
+	background-image: url(../assets/icons8-facebook.svg);
+}
+
+.social-media .ig {
+	background-image: url(../assets/icons8-instagram.svg);
+}
+
+.social-media .github {
+	background-image: url(../assets/icons8-github.svg);
+}
